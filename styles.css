@@ -195,6 +195,20 @@ button {
   line-height: 0.84;
 }
 
+.heading-icon {
+  display: inline-block;
+  width: 0.34em;
+  height: 0.34em;
+  margin-right: 0.16em;
+  overflow: visible;
+  vertical-align: 0.05em;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
 .hero-heading h1 {
   max-width: 740px;
   overflow-wrap: anywhere;
@@ -206,9 +220,24 @@ button {
 }
 
 .hero-kicker {
-  margin: 0 0 10px;
+  margin: 0;
   font-size: 13px;
   font-weight: 700;
+}
+
+.hero-kicker-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.hero-illustration {
+  display: block;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 76px;
 }
 
 .hero-copy {
