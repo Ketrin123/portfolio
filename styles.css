@@ -1,11 +1,13 @@
 :root {
   color-scheme: light;
-  --lime: #DDEB78;
-  --ink: #11120F;
-  --panel: #24271F;
-  --paper: #F3F1E8;
-  --muted: #55564B;
-  --line: rgba(17, 18, 15, 0.28);
+  --canvas: #D8E0D0;
+  --rose: #D48F9E;
+  --ink: #1B2C22;
+  --panel: #20352A;
+  --paper: #F4F0E8;
+  --muted: #536156;
+  --sage: #AEB9A5;
+  --line: rgba(27, 44, 34, 0.28);
   --serif: Georgia, "Times New Roman", serif;
   --sans: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --content-width: 1160px;
@@ -24,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--lime);
+  background: var(--canvas);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
@@ -40,7 +42,7 @@ a {
 
 ::selection {
   background: var(--ink);
-  color: var(--lime);
+  color: var(--rose);
 }
 
 a {
@@ -140,6 +142,13 @@ button {
 }
 
 .hero {
+  color: var(--paper);
+  background-image: linear-gradient(rgba(27, 44, 34, 0.64), rgba(27, 44, 34, 0.64)), url("img/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
   padding-top: 25px;
   padding-bottom: 30px;
 }
@@ -173,7 +182,17 @@ button {
 
 .hero-index,
 .hero-bottomline {
-  color: var(--muted);
+  color: rgba(244, 240, 232, 0.82);
+}
+
+.hero h1 span {
+  color: var(--lime);
+}
+
+.hero .button-dark {
+  border-color: var(--rose);
+  background: var(--rose);
+  color: var(--ink);
 }
 
 .hero-grid {
@@ -292,7 +311,7 @@ button {
   align-items: center;
   gap: 8px;
   margin: 22px 0 0;
-  color: var(--muted);
+  color: rgba(244, 240, 232, 0.82);
   font-size: 11px;
 }
 
@@ -300,8 +319,8 @@ button {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--ink);
-  box-shadow: 0 0 0 3px rgba(17, 18, 15, 0.1);
+  background: var(--rose);
+  box-shadow: 0 0 0 3px rgba(212, 143, 158, 0.24);
 }
 
 .hero-bottomline {
@@ -387,16 +406,16 @@ button {
 }
 
 .visual-forma {
-  background: #B5B6A1;
+  background: var(--sage);
 }
 
 .mock-browser {
   width: 74%;
   height: 77%;
   overflow: hidden;
-  background: #F2EFE4;
-  color: #23322C;
-  box-shadow: 0 12px 30px rgba(17, 18, 15, 0.16);
+  background: var(--paper);
+  color: var(--panel);
+  box-shadow: 0 12px 30px rgba(27, 44, 34, 0.16);
   transition: transform 350ms ease;
 }
 
@@ -406,19 +425,19 @@ button {
   align-items: center;
   gap: 4px;
   padding: 0 9px;
-  border-bottom: 1px solid rgba(17, 18, 15, 0.16);
+  border-bottom: 1px solid rgba(27, 44, 34, 0.16);
 }
 
 .mock-bar > span {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #95988B;
+  background: var(--sage);
 }
 
 .mock-bar i {
   margin-inline: auto;
-  color: #6C7066;
+  color: var(--muted);
   font-size: 7px;
   font-style: normal;
 }
@@ -459,7 +478,7 @@ button {
   right: 8%;
   width: 44%;
   height: 59%;
-  background: linear-gradient(145deg, #9B9B7E 0 43%, #D7D1B5 43% 58%, #738075 58%);
+  background: linear-gradient(145deg, #778C78 0 43%, #D8BCC3 43% 58%, #5E7665 58%);
   clip-path: polygon(20% 0, 100% 12%, 83% 100%, 0 79%);
 }
 
@@ -475,14 +494,14 @@ button {
   position: absolute;
   right: 12px;
   bottom: 9px;
-  color: rgba(17, 18, 15, 0.7);
+  color: rgba(27, 44, 34, 0.7);
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
 
 .visual-kvet {
-  background: #D5A49A;
+  background: var(--rose);
 }
 
 .kvet-poster {
@@ -491,8 +510,8 @@ button {
   height: 82%;
   overflow: hidden;
   padding: 16px;
-  background: #F0E7D7;
-  color: #5B2520;
+  background: var(--paper);
+  color: var(--ink);
   transition: transform 350ms ease;
 }
 
@@ -540,7 +559,7 @@ button {
   width: 16px;
   height: 28px;
   border-radius: 50% 50% 45% 45%;
-  background: #BC5142;
+  background: #B97382;
   transform-origin: 50% 28px;
 }
 
@@ -556,7 +575,7 @@ button {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #E7BD67;
+  background: var(--sage);
 }
 
 .kvet-footer {
@@ -567,15 +586,15 @@ button {
 }
 
 .visual-pokoj {
-  background: #9BA99C;
+  background: #87978B;
 }
 
 .pokoj-app {
   width: 68%;
   height: 83%;
   padding: 14px;
-  background: #E6E7D8;
-  color: #26342D;
+  background: #E7EBE0;
+  color: var(--panel);
   transition: transform 350ms ease;
 }
 
@@ -598,7 +617,7 @@ button {
 
 .app-greeting {
   margin-top: 26px;
-  color: #69766A;
+  color: #68766C;
   font-size: 6px;
 }
 
@@ -615,14 +634,14 @@ button {
 .app-progress {
   height: 3px;
   margin-top: 16px;
-  background: #C5CCBC;
+  background: #CDD5C7;
 }
 
 .app-progress span {
   display: block;
   width: 38%;
   height: 100%;
-  background: #65796C;
+  background: #5C7564;
 }
 
 .app-bottom {
@@ -676,7 +695,7 @@ button {
   justify-content: space-between;
   margin-top: 52px;
   padding-top: 13px;
-  border-top: 1px solid rgba(17, 18, 15, 0.2);
+  border-top: 1px solid rgba(27, 44, 34, 0.2);
 }
 
 .about-section {
@@ -693,7 +712,7 @@ button {
 
 .about-heading .eyebrow,
 .footer-main .eyebrow {
-  color: #C8CAAE;
+  color: #C9D3C3;
 }
 
 .about-heading h2 {
@@ -711,12 +730,12 @@ button {
 
 .about-heading .serif-italic,
 .footer-main .serif-italic {
-  color: var(--lime);
+  color: var(--rose);
 }
 
 .about-copy {
   padding-top: 43px;
-  color: #D7D8CB;
+  color: #DDE5DA;
   font-size: 15px;
 }
 
@@ -732,7 +751,7 @@ button {
 
 .about-details {
   margin-top: 32px;
-  border-top: 1px solid rgba(243, 241, 232, 0.25);
+  border-top: 1px solid rgba(244, 240, 232, 0.25);
 }
 
 .about-details div {
@@ -740,11 +759,11 @@ button {
   justify-content: space-between;
   gap: 16px;
   padding: 13px 0;
-  border-bottom: 1px solid rgba(243, 241, 232, 0.25);
+  border-bottom: 1px solid rgba(244, 240, 232, 0.25);
 }
 
 .about-details span {
-  color: #C8CAAE;
+  color: #C9D3C3;
   font-size: 9px;
 }
 
@@ -761,7 +780,7 @@ button {
   gap: 15px;
   margin-top: 27px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(243, 241, 232, 0.55);
+  border-bottom: 1px solid rgba(244, 240, 232, 0.55);
   color: var(--paper);
   font-size: 13px;
   font-weight: 700;
@@ -769,7 +788,7 @@ button {
 
 .site-footer {
   padding: 89px 0 20px;
-  background: var(--lime);
+  background: var(--rose);
 }
 
 .footer-main {
@@ -791,7 +810,7 @@ button {
 }
 
 .footer-main .serif-italic {
-  color: #50513F;
+  color: var(--panel);
 }
 
 .footer-button {
@@ -955,7 +974,7 @@ button {
     margin-top: 14px;
   }
 
-  .hero {
+  .hero-content {
     padding-top: 20px;
     padding-bottom: 25px;
   }

@@ -1,18 +1,19 @@
 # Dizajnová referencia
 
-Vizuálna referencia vychádza z úvodnej stránky štúdia Endcap. Uvedené farby sú približné odhady zo screenshotu, nie oficiálne hodnoty značky.
+Farebná referencia vychádza z fotografie `img/hero.jpg`: sýte lesné listy, ružové žilkovanie a mäkké prirodzené svetlo. Paleta stránky tieto farby preberá do pokojnejších, dobre čitateľných plôch.
 
 ## Farby
 
-| Použitie | Odhad | Poznámka |
+| Použitie | Farba | Poznámka |
 | --- | --- | --- |
-| Hlavné pozadie | `#DDEB78` | Jasná žlto-zelená až limetková; tvorí veľkú súvislú plochu. |
-| Hlavný text a tlačidlá | `#11120F` | Takmer čierna, mierne teplá. |
-| Tmavá plocha projektu | `#24271F` | Tlmená čierno-zelená na kontrastné panely. |
-| Svetlý text na tmavom | `#F3F1E8` | Jemná, teplá biela. |
-| Sekundárny text | `#55564B` | Tlmený tmavý olivovo-sivý odtieň. |
+| Hlavné pozadie | `#D8E0D0` | Svetlá šalviová zelená pre vzdušný základ stránky. |
+| Hlavný text | `#1B2C22` | Hlboká lesná zelená s vysokým kontrastom na svetlých plochách. |
+| Tmavé plochy | `#20352A` | Tlmená zelená pre sekcie s kontrastným svetlým textom. |
+| Svetlé plochy a text na tmavom | `#F4F0E8` | Teplá, jemná biela. |
+| Akcent | `#D48F9E` | Tlmená ružová prevzatá z listov na hero fotografii. |
+| Sekundárny text | `#536156` | Tlmená zelenošedá pre popisky na svetlom podklade. |
 
-Limetkovú používaj ako dominantnú plochu, nie ako drobný akcent. Kombinuj ju najmä s takmer čiernou; ďalšie farby nech prichádzajú predovšetkým z fotografií projektov.
+Šalviovú používaj ako svetlý základ, lesnú zelenú na texte a tmavých paneloch a ružovú ako striedmy akcent. Hero fotografia zostáva dominantným obrazovým prvkom; prekryv ju stmavuje bez toho, aby potlačil jej zeleno-ružové farby.
 
 ## Písmo a typografia
 
@@ -24,8 +25,8 @@ Limetkovú používaj ako dominantnú plochu, nie ako drobný akcent. Kombinuj j
 ## Tlačidlá a odkazy
 
 - Jednoduché obdĺžnikové tlačidlá s ostrými alebo len minimálne zaoblenými rohmi.
-- Primárne tlačidlo: takmer čierne pozadie, svetlý tučný text.
-- Sekundárne tlačidlo: priehľadné limetkové pozadie, plná jemná čierna linka a tmavý text.
+- Primárne tlačidlo: lesná zelená alebo ružové pozadie, tmavý či svetlý tučný text podľa kontrastu.
+- Sekundárne tlačidlo: priehľadné pozadie, jemná tmavozelená linka a text.
 - Veľkorysý vnútorný odstup a jasná, krátka výzva k akcii.
 - Pri vybraných odkazoch použi malú šípku ako nenápadný signál navigácie. Nepridávaj tiene ani dekoratívne efekty.
 
@@ -37,7 +38,7 @@ Ukážky práce prezentuj veľkými, kvalitnými fotografiami alebo náhľadmi w
 
 ## Zásady pri tvorbe stránky
 
-- Udržuj paletu úzku a kontrastnú; limetková, takmer čierna a teplá biela sú základ.
+- Udržuj paletu úzku a kontrastnú; šalviová, lesná zelená, tlmená ružová a teplá biela sú základ.
 - Nechaj vyniknúť jeden veľký typografický prvok a vyvažuj ho pokojnejšími informačnými blokmi.
 - Používaj čistú mriežku, výrazné zarovnania a dostatok voľného miesta.
 - Zachovaj striedmosť: bez zaoblených kariet, gradientových dekorácií a zbytočných tieňov.
