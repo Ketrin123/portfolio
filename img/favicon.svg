@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" fill="#D8E0D0"/>
-  <path fill="#1B2C22" d="M9 49V15h8l9 15 9-15h8v34h-9V31l-8 13-8-13v18zm39-8h8v8h-8z"/>
+  <text x="32" y="46" fill="#1B2C22" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="-2" text-anchor="middle">KK</text>
 </svg>
